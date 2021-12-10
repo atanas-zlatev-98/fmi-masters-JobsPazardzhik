@@ -1,0 +1,55 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #4b4ca6;
+}
+.home-body {
+    background-color: #00a8ff;
+}
+.main-page {
+    width: 100%;
+    height: 100vh;
+ 
+    position: relative;
+}
+.img {
+    background-image: url("Images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.center-button {
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    position: relative;
+}
+.navbar-default {
+    background: none;
+}
+
+#nav-a:hover {
+    border-bottom: 1px solid white;
+}
+
+.input-class-jobs {
+    background-color: transparent;
+    outline: none;
+    border:none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.container-with-jobs {
+    width: 90%;
+  
+}
+
+.font-size-text {
+	font-size: 20px;
+}
